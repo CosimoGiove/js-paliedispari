@@ -1,8 +1,9 @@
 "use strict"
+
 const scelta = prompt(" scegli pari o dispari")
 console.log(`${"scelta del giocatore è :"}${scelta}`);
 const Sceltadelgiocatore=document.querySelector(".numerogiocatore").innerHTML+=(`${"la scelta del giocatore è :"} ${scelta}`);
-console.log(Sceltadelgiocatore)
+
 
 const pari = "pari"
 const dispari = "dispari"
